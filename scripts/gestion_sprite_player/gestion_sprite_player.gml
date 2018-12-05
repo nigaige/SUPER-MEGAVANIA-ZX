@@ -110,7 +110,7 @@ switch(action_id){
 		break;
 	case(LDAM):
 		sprite_compteur++;
-		sprite_index = spr_player_damage_v2;
+		sprite_index = spr_player_damage_v3;
 		if (sprite_compteur >= LDAM_speed){
 			image_index++;
 			sprite_compteur = 0;
