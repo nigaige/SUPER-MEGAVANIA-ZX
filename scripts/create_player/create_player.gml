@@ -2,6 +2,7 @@ max_jmp = 2;
 nb_jmp = max_jmp;
 jump_power = -6
 jump = false;
+new_jump = false
 
 
 /*****sprite init******/
@@ -43,6 +44,7 @@ is_attacking = false;
 #macro ATT1_speed		8
 #macro LDAM_speed		3
 #macro HDAM_speed		8
+#macro JUMP_speed		8
 landing = false;
 
 

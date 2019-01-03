@@ -17,11 +17,9 @@ if (!is_attacking && !is_damaged){
 			break;
 		
 		case(false):
-			if(vit_Y<0){ 
+
 				action_id = JUMP;
-			}else{
-				action_id = FALL;
-			}
+
 			break;
 	}
 }else{
@@ -77,7 +75,18 @@ switch(action_id){
 		break;
 		
 	case(JUMP):
-		sprite_index = spr_player_jump;
+		sprite_index = spr_player_jump_v1;
+		if (new_jump){
+			sprite_compteur = 0;
+			image_index = 0;
+		}
+		sprite_compteur++;
+		if (sprite_compteur >= WALKING_speed){
+			if image_index<3{
+				image_index++;
+			}
+			sprite_compteur = 0;
+		}
 		break;
 	case(FALL):
 		sprite_index = spr_player_fall;

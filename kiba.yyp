@@ -463,10 +463,18 @@
             }
         },
         {
+            "Key": "e0fdc71e-485e-4bda-8b23-39a5d5e74f61",
+            "Value": {
+                "id": "6dda463e-d70e-41ee-a67e-80bd52f33d3c",
+                "resourcePath": "sprites\\spr_player_jump_v2\\spr_player_jump_v2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e21fe68b-0599-4959-878c-6804e12cdb56",
             "Value": {
                 "id": "fbccb885-1404-429d-908d-204b4841bdb1",
-                "resourcePath": "sprites\\sprite19\\sprite19.yy",
+                "resourcePath": "sprites\\spr_player_jump_v1\\spr_player_jump_v1.yy",
                 "resourceType": "GMSprite"
             }
         },
